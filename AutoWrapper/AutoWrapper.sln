@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.29230.61
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoWrapper", "AutoWrapper.csproj", "{25F1CF42-753E-407C-91A1-5C2F8428FFC6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoWrapper.WebAPI.Tests", "..\AutoWrapper.Tests\AutoWrapper.WebAPI.Tests.csproj", "{ADC73B40-A5E2-4455-883D-78BD8FD997B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoWrapper.WebAPI", "..\AutoWrapper.WebAPI\AutoWrapper.WebAPI.csproj", "{34AFBB91-7455-4497-99D4-7F338325DBFA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{25F1CF42-753E-407C-91A1-5C2F8428FFC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{25F1CF42-753E-407C-91A1-5C2F8428FFC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{25F1CF42-753E-407C-91A1-5C2F8428FFC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADC73B40-A5E2-4455-883D-78BD8FD997B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADC73B40-A5E2-4455-883D-78BD8FD997B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADC73B40-A5E2-4455-883D-78BD8FD997B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADC73B40-A5E2-4455-883D-78BD8FD997B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34AFBB91-7455-4497-99D4-7F338325DBFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34AFBB91-7455-4497-99D4-7F338325DBFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34AFBB91-7455-4497-99D4-7F338325DBFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34AFBB91-7455-4497-99D4-7F338325DBFA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
